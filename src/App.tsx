@@ -170,7 +170,7 @@ class App extends React.Component<any, any> {
 
   public walletConnectInit = async () => {
     // bridge url
-    const bridge = "https://bridge.walletconnect.org";
+    const bridge = "https://safe-walletconnect.dev.gnosisdev.com";
 
     // create new walletConnector
     const walletConnector = new WalletConnect({ bridge });
